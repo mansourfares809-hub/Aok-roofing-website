@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Barlow", sans-serif;
+  overflow-x: clip;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 214 45% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 214 45% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 214 45% 13%;
+    --primary: 213 56% 17%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 24% 95%;
+    --secondary-foreground: 213 56% 17%;
+    --muted: 210 24% 95%;
+    --muted-foreground: 215 14% 42%;
+    --accent: 22 95% 48%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214 18% 88%;
+    --input: 214 18% 88%;
+    --ring: 22 95% 48%;
+    --radius: 0.375rem;
+  }
+}
